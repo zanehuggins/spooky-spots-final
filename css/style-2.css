@@ -1,0 +1,1127 @@
+body{
+background-color: black;
+
+}
+
+header{
+
+height: 150px;
+  background-color: #fbfbf5;
+  z-index: 25;
+}
+header ul{
+  margin-top: 2.25em;
+}
+header li{
+  text-align: center;
+}
+
+header img{
+  margin-top: .35em;
+}
+
+p{
+  font-family: bodoni;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.nav a{
+  color: black;
+  font-family: 'Kaikoura';
+  font-size: 1.1em;
+}
+
+
+#active{
+  text-decoration: underline;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+main{
+overflow:scroll;
+width:100vw;
+height:90vh;
+}
+
+main a{
+  color: #eee6ce;
+  font-family: bodoni serif;
+  font-size: 1.2em;
+  line-height:1.1em;
+}
+
+main a:hover{
+  color: #eee6ce;
+text-decoration: none;
+opacity: .75;
+transition: .5s;
+}
+
+.map-container{
+position: relative;
+}
+
+.map{
+min-width:2000px;
+}
+
+/* Locations */
+
+/* DUPONT */
+.dupont-container{
+  position: absolute;
+  top: 26em;
+  left: 60em;
+  width: 8em;
+}
+
+.dupont-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.dupont-pin{
+  height: 2em;
+  width: 2em;
+  border-radius: 2em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -.5em;
+}
+
+/* MOUNDSVILLE */
+.moundsville-container{
+  position: absolute;
+  top: 16em;
+  left: 48em;
+  width: 8em;
+}
+
+.moundsville-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.moundsville-pin{
+  height: 4em;
+  width: 4em;
+  border-radius: 2em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -.5em;
+}
+
+/* THURMOND */
+
+.thurmond-container{
+  position: absolute;
+  top: 70em;
+  left: 35em;
+  width: 8em;
+}
+
+.thurmond-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.thurmond-pin{
+  height: 2em;
+  width: 2em;
+  border-radius: 2em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -.5em;
+}
+
+/* NORTHBEND TUNNEL */
+
+.northbend-tunnel-container{
+  position: absolute;
+  top: 40em;
+  left: 29em;
+  width: 8em;
+}
+
+.northbend-tunnel-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.northbend-tunnel-pin{
+  height: 2em;
+  width: 2em;
+  border-radius: 2em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -.5em;
+}
+
+/* NORTHBEND RUINS */
+
+.northbend-ruins-container{
+  position: absolute;
+  top: 47em;
+  left: 26em;
+  width: 8em;
+}
+
+.northbend-ruins-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.northbend-ruins-pin{
+  height: 3em;
+  width: 3em;
+  border-radius: 2em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: .25em;
+}
+
+/* LAKE SHAWNEE */
+
+.lake-shawnee-container{
+  position: absolute;
+  top: 90em;
+  left: 38em;
+  width: 8em;
+}
+
+.lake-shawnee-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.lake-shawnee-pin{
+  height: 2em;
+  width: 2em;
+  border-radius: 2em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -.5em;
+}
+
+/* WEST RUN */
+
+.west-run-container{
+  position: absolute;
+  top: 37em;
+  left: 57em;
+  width: 8em;
+}
+
+.west-run-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.west-run-pin{
+  height: 3em;
+  width: 3em;
+  border-radius: 2em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: .25em;
+}
+
+/* BLUE HOLE */
+
+.blue-hole-container{
+  position: absolute;
+  top: 35em;
+  left: 72em;
+  width: 8em;
+}
+
+.blue-hole-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.blue-hole-pin{
+  height: 5em;
+  width: 5em;
+  border-radius: 5em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: .25em;
+}
+
+/* WESTON */
+
+.weston-container{
+  position: absolute;
+  top: 52em;
+  left: 50em;
+  width: 8em;
+}
+
+.weston-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.weston-pin{
+  height: 5em;
+  width: 5em;
+  border-radius: 5em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: .25em;
+}
+
+
+
+
+
+/* Map Key */
+
+.key{
+  height: 27em;
+  width: 25em;
+  background-color: white;
+  position: absolute;
+  top: 5em;
+  left: 5em;
+  outline: 1px solid black;
+  outline-offset: -.5em;
+}
+
+.key h5{
+  text-align: center;
+  margin-top: 1em;
+}
+
+.key p{
+  font-size: 1em;
+  font-family: bodoni;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.few{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.25em;
+
+}
+
+.few p{
+left: 9em;
+position: absolute;
+}
+
+.pin-few{
+  height: .5em;
+  width: .5em;
+  border-radius: 5em;
+  background-color: #b22a16;
+  margin-left: 1.9em;
+  float: left;
+}
+
+
+.group{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.25em;
+}
+
+.group p{
+position: absolute;
+left: 9em;
+bottom: 4em;
+}
+
+.pin-group{
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 5em;
+  background-color: #b22a16;
+  margin-left: 1.5em;
+}
+
+
+.several-groups{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.25em;
+}
+
+.several-groups p{
+position: absolute;
+left: 9em;
+bottom: 7em;
+}
+
+.pin-several-groups{
+  height: 3em;
+  width: 3em;
+  border-radius: 5em;
+  background-color: #b22a16;
+  margin-left: 1em;
+}
+
+
+.line{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.25em;
+}
+
+.pin-line{
+  height: 5em;
+  width: 5em;
+  border-radius: 5em;
+  background-color: #b22a16;
+}
+
+.line p{
+  position: absolute;
+  left: 9em;
+bottom: 12.5em;
+}
+
+
+h5{
+  font-family: 'Kaikoura';
+  font-size: 1.75em;
+  color: #b22a16;
+}
+
+
+.pop-up{
+  width: 60vw;
+  margin-right: 20vw;
+  margin-left: 20vw;
+  border-radius: 0;
+
+
+}
+
+.modal-dialog{
+  margin: 0;
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Animations */
+
+.hover-state a:hover{
+-webkit-animation-name: wiggle; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: wiggle;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+a{
+outline: none;
+}
+
+/* Contextual Map Elements */
+
+
+/* Morgantown */
+
+.map-container{
+position: relative;
+}
+
+.map{
+min-width:2000px;
+}
+
+/* Locations */
+
+/* DUPONT */
+.dupont-container{
+  position: absolute;
+  top: 26em;
+  left: 61em;
+  width: 8em;
+}
+
+.dupont-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.dupont-pin{
+  height: .5em;
+  width: .5em;
+  border-radius: 2em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -.5em;
+}
+
+/* MOUNDSVILLE */
+.moundsville-container{
+  position: absolute;
+  top: 16em;
+  left: 48em;
+  width: 8em;
+}
+
+.moundsville-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.moundsville-pin{
+  height: 5em;
+  width: 5em;
+  border-radius: 5em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -.5em;
+}
+
+/* THURMOND */
+
+.thurmond-container{
+  position: absolute;
+  top: 70em;
+  left: 35em;
+  width: 8em;
+}
+
+.thurmond-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.thurmond-pin{
+  height: 3em;
+  width: 3em;
+  border-radius: 2em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -.5em;
+}
+
+/* NORTHBEND TUNNEL */
+
+.northbend-tunnel-container{
+  position: absolute;
+  top: 40em;
+  left: 29em;
+  width: 8em;
+}
+
+.northbend-tunnel-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.northbend-tunnel-pin{
+  height: 3em;
+  width: 3em;
+  border-radius: 2em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -.5em;
+}
+
+/* NORTHBEND RUINS */
+
+.northbend-ruins-container{
+  position: absolute;
+  top: 49em;
+  left: 26em;
+  width: 8em;
+}
+
+.northbend-ruins-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.northbend-ruins-pin{
+  height: 1.25em;
+  width: 1.25em;
+  border-radius: 2em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: .25em;
+}
+
+/* LAKE SHAWNEE */
+
+.lake-shawnee-container{
+  position: absolute;
+  top: 90em;
+  left: 38em;
+  width: 8em;
+}
+
+.lake-shawnee-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.lake-shawnee-pin{
+  height: .5em;
+  width: .5em;
+  border-radius: 2em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -.5em;
+}
+
+/* WEST RUN */
+
+.west-run-container{
+  position: absolute;
+  top: 37em;
+  left: 57em;
+  width: 8em;
+  z-index: 0;
+}
+
+.west-run-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.west-run-pin{
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 2em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: .25em;
+}
+
+/* BLUE HOLE */
+
+.blue-hole-container{
+  position: absolute;
+  top: 35em;
+  left: 72em;
+  width: 8em;
+}
+
+.blue-hole-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.blue-hole-pin{
+  height: 5em;
+  width: 5em;
+  border-radius: 5em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: .25em;
+}
+
+/* WESTON */
+
+.weston-container{
+  position: absolute;
+  top: 52em;
+  left: 50em;
+  width: 8em;
+}
+
+.weston-container p{
+  text-align: center;
+  width: 160%;
+  margin-top:.75em;
+  margin-left: -2em;
+}
+
+.weston-pin{
+  height: 5em;
+  width: 5em;
+  border-radius: 5em;
+  background-color: #b22a16;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: .25em;
+}
+
+
+
+
+
+/* Map Key */
+
+.key{
+  height: 27em;
+  width: 25em;
+  background-color: white;
+  position: absolute;
+  top: 5em;
+  left: 5em;
+  outline: 1px solid black;
+  outline-offset: -.5em;
+}
+
+.key h5{
+  text-align: center;
+  margin-top: 1em;
+}
+
+.key p{
+  font-size: 1em;
+  font-family: bodoni;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.few{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.25em;
+
+}
+
+.few p{
+left: 9em;
+position: absolute;
+}
+
+.pin-few{
+  height: .5em;
+  width: .5em;
+  border-radius: 5em;
+  background-color: #b22a16;
+  margin-left: 1.9em;
+  float: left;
+}
+
+
+.group{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.25em;
+}
+
+.group p{
+position: absolute;
+left: 9em;
+bottom: 4em;
+}
+
+.pin-group{
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 5em;
+  background-color: #b22a16;
+  margin-left: 1.5em;
+}
+
+
+.several-groups{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.25em;
+}
+
+.several-groups p{
+position: absolute;
+left: 9em;
+bottom: 7em;
+}
+
+.pin-several-groups{
+  height: 3em;
+  width: 3em;
+  border-radius: 5em;
+  background-color: #b22a16;
+  margin-left: 1em;
+}
+
+
+.line{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.25em;
+}
+
+.pin-line{
+  height: 5em;
+  width: 5em;
+  border-radius: 5em;
+  background-color: #b22a16;
+}
+
+.line p{
+  position: absolute;
+  left: 9em;
+bottom: 12.5em;
+}
+
+
+h5{
+  font-family: 'Kaikoura';
+  font-size: 1.75em;
+  color: #b22a16;
+}
+
+
+.pop-up{
+  width: 60vw;
+  margin-right: 20vw;
+  margin-left: 20vw;
+  border-radius: 0;
+
+
+}
+
+.modal-dialog{
+  margin: 0;
+  width:100%;
+}
+
+
+
+
+/* Morgantown */
+
+.morgantown-container{
+  position: absolute;
+  top: 39em;
+  left: 63.5em;
+  width: 8em;
+opacity: .25;
+}
+
+.morgantown-pin{
+  height: 1em;
+  width: 1em;
+  border-radius: 2em;
+  background-color: #ECE5CD;
+
+}
+
+.text-morgantown{
+  letter-spacing: .5em;
+  font-size: .75em;
+  color: #ECE5CD;
+}
+
+
+/* Bluefield */
+
+.bluefield-container{
+  position: absolute;
+  top: 106em;
+  left: 37em;
+  width: 8em;
+opacity: .25;
+}
+
+.bluefield-pin{
+  height: 1em;
+  width: 1em;
+  border-radius: 2em;
+  background-color: #ECE5CD;
+
+}
+
+.text-bluefield{
+  letter-spacing: .5em;
+  font-size: .75em;
+  color: #ECE5CD;
+}
+
+
+/* Charleston */
+
+.charleston-container{
+  position: absolute;
+  top: 75em;
+  left: 26.5em;
+  width: 8em;
+opacity: .25;
+}
+
+.charleston-pin{
+  height: 1em;
+  width: 1em;
+  border-radius: 2em;
+  background-color: #ECE5CD;
+
+}
+
+.text-charleston{
+  letter-spacing: .5em;
+  font-size: .75em;
+  color: #ECE5CD;
+}
+
+
+/* Huntington */
+
+.huntington-container{
+  position: absolute;
+  top: 75em;
+  left: 9em;
+  width: 8em;
+opacity: .25;
+}
+
+.huntington-pin{
+  height: 1em;
+  width: 1em;
+  border-radius: 2em;
+  background-color: #ECE5CD;
+
+}
+
+.text-huntington{
+  letter-spacing: .5em;
+  font-size: .75em;
+  color: #ECE5CD;
+}
+
+
+/* Williamson */
+
+.williamson-container{
+  position: absolute;
+  top: 94em;
+  left: 13em;
+  width: 8em;
+opacity: .25;
+}
+
+.williamson-pin{
+  height: 1em;
+  width: 1em;
+  border-radius: 2em;
+  background-color: #ECE5CD;
+
+}
+
+.text-williamson{
+  letter-spacing: .5em;
+  font-size: .75em;
+  color: #ECE5CD;
+}
+
+
+/* Bridgeport */
+
+.bridgeport-container{
+  position: absolute;
+  top: 52em;
+  left: 58em;
+  width: 8em;
+opacity: .25;
+}
+
+.bridgeport-pin{
+  height: 1em;
+  width: 1em;
+  border-radius: 2em;
+  background-color: #ECE5CD;
+
+
+}
+
+.text-bridgeport{
+  letter-spacing: .5em;
+  font-size: .75em;
+  color: #ECE5CD;
+}
+
+
+/* Parkersburg */
+
+.parkersburg-container{
+  position: absolute;
+  top: 50em;
+  left: 32.5em;
+  width: 8em;
+opacity: .25;
+}
+
+.parkersburg-pin{
+  height: 1em;
+  width: 1em;
+  border-radius: 2em;
+  background-color: #ECE5CD;
+
+
+}
+
+.text-parkersburg{
+  letter-spacing: .5em;
+  font-size: .75em;
+  color: #ECE5CD;
+}
+
+
+/* Parkersburg */
+
+.martinsburg-container{
+  position: absolute;
+  top: 43em;
+  left: 112em;
+  width: 8em;
+opacity: .25;
+}
+
+.martinsburg-pin{
+  height: 1em;
+  width: 1em;
+  border-radius: 2em;
+  background-color: #ECE5CD;
+}
+
+.text-martinsburg{
+  letter-spacing: .5em;
+  font-size: .75em;
+  color: #ECE5CD;
+}
+
+
+/* Bluefield */
+
+.beckley-container{
+  position: absolute;
+  top: 92em;
+  left: 32em;
+  width: 8em;
+opacity: .25;
+}
+
+.beckley-pin{
+  height: 1em;
+  width: 1em;
+  border-radius: 2em;
+  background-color: #ECE5CD;
+margin-left: 4.7em;
+}
+
+.text-beckley{
+  letter-spacing: .5em;
+  font-size: .75em;
+  color: #ECE5CD;
+}
+
+.compass{
+  width: 20em;
+  height: auto;
+  position: absolute;
+  bottom: 20em;
+  left: 80em;
+}
+.light-container{
+  z-index:40;
+  height: 4em;
+  position: fixed;
+  top: 20vh;
+  left: 90vw;
+}
+
+.light-container img{
+z-index:40;
+height: 4em;
+}
+
+/* Standard syntax */
+@keyframes wiggle {
+  0%   {opacity: 1;}
+  25%   {opacity: .25;}
+  50% {opacity: 1;}
+  75%  {opacity: .25;}
+  100% {opacity: 1;}
+}
+
+@media (min-width:767px){
+  .logo{
+    height: 100px;
+  }
+header{
+  height: 110px;
+}
+
+}
+
+@media (max-width:760px){
+  header{
+    height: 30vw;
+  }
+}

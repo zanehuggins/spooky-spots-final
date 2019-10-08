@@ -1,0 +1,174 @@
+body{
+background-color: black;
+}
+
+header{
+
+height: 150px;
+  background-color: #fbfbf5;
+  z-index: 25;
+}
+header ul{
+  margin-top: 2.25em;
+}
+header li{
+  text-align: center;
+}
+
+header img{
+  margin-top: .35em;
+}
+
+.nav a{
+  color: black;
+  font-family: 'Kaikoura';
+  font-size: 1.1em;
+}
+
+h1{
+  color: black;
+  font-family: 'Kaikoura';
+  font-size: 2.5em;
+  text-align: center;
+}
+
+H2{
+  color: black;
+  font-family: 'Kaikoura';
+  font-size: 1.5em;
+  color: #b22a16;
+}
+
+#active{
+  text-decoration: underline;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+p{
+  font-family: bodoni;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+
+@media (min-width:767px){
+  .logo{
+    height: 100px;
+  }
+header{
+  height: 110px;
+}
+
+
+}
+
+@media (max-width:760px){
+  header{
+    height: 30vw;
+  }
+
+}
+
+
+.gallery{
+  background-color: white;
+  outline: 1px solid black;
+  outline-offset: -.5em;
+  background-color: #fbfbf5;
+  margin-bottom: 2.5em;
+}
+
+.gallery-2{
+  background-color: white;
+  outline: 1px solid black;
+  outline-offset: -.5em;
+  background-color: #fbfbf5;
+  margin-bottom: 2.5em;
+}
+
+.gallery h4{
+  color: black;
+  font-family: 'Kaikoura';
+  font-size: 1.3em;
+  text-align: center;
+  height: 1em;
+}
+
+.add-margin{
+  margin-top: 2em;
+}
+
+.h1-2{
+  text-align: left;
+}
+
+.desc{
+  margin-top: 2em;
+  font-family: bodoni;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+.hover{
+
+}
+
+
+.hover-state li a:hover{
+opacity: .75;
+
+}
+
+.add-margin{
+  margin-top:2em;
+}
+
+.add-margin-2{
+  margin-top: 3.5em;
+}
+
+.link a{
+  color: #b22a16;
+}
+
+
+.download{
+background-color: #b22a16;
+color: white;
+padding: 1em;
+font-family: bodoni;
+font-size: 1.1em;
+margin-top: 2.5em;
+float: left;
+text-align: center;
+}
+
+.download:hover{
+  text-decoration: none;
+  color: white;
+  opacity: .75;
+
+}
+
+footer a{
+margin-left: 2em;
+color: white;
+}
+
+footer a:hover{
+  color: white;
+  text-decoration: none;
+  opacity: .75;
+}
+
+.sources li{
+  margin-top: 1em;
+}
+
+.sources a{
+  color: black;
+}

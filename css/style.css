@@ -476,7 +476,7 @@ h5{
 
 /* Animations */
 
-.hover-state:hover{
+.hover-state a:hover{
 -webkit-animation-name: wiggle; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
   animation-name: wiggle;
